@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "RossBoiler.Application.Models/1.0.0": {
+        "runtime": {
+          "RossBoiler.Application.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RossBoiler.Application.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

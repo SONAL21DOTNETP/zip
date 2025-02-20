@@ -1,0 +1,12 @@
+C:\Users\Sonal\OneDrive\Desktop\cqrs\CQRSSAmple\RossBoiler.Application.Models\bin\Release\net8.0\RossBoiler.Application.Models.deps.json
+C:\Users\Sonal\OneDrive\Desktop\cqrs\CQRSSAmple\RossBoiler.Application.Models\bin\Release\net8.0\RossBoiler.Application.Models.dll
+C:\Users\Sonal\OneDrive\Desktop\cqrs\CQRSSAmple\RossBoiler.Application.Models\bin\Release\net8.0\RossBoiler.Application.Models.pdb
+C:\Users\Sonal\OneDrive\Desktop\cqrs\CQRSSAmple\RossBoiler.Application.Models\obj\Release\net8.0\RossBoiler.Application.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sonal\OneDrive\Desktop\cqrs\CQRSSAmple\RossBoiler.Application.Models\obj\Release\net8.0\RossBoiler.Application.Models.AssemblyInfoInputs.cache
+C:\Users\Sonal\OneDrive\Desktop\cqrs\CQRSSAmple\RossBoiler.Application.Models\obj\Release\net8.0\RossBoiler.Application.Models.AssemblyInfo.cs
+C:\Users\Sonal\OneDrive\Desktop\cqrs\CQRSSAmple\RossBoiler.Application.Models\obj\Release\net8.0\RossBoiler.Application.Models.csproj.CoreCompileInputs.cache
+C:\Users\Sonal\OneDrive\Desktop\cqrs\CQRSSAmple\RossBoiler.Application.Models\obj\Release\net8.0\RossBoiler.Application.Models.sourcelink.json
+C:\Users\Sonal\OneDrive\Desktop\cqrs\CQRSSAmple\RossBoiler.Application.Models\obj\Release\net8.0\RossBoiler.Application.Models.dll
+C:\Users\Sonal\OneDrive\Desktop\cqrs\CQRSSAmple\RossBoiler.Application.Models\obj\Release\net8.0\refint\RossBoiler.Application.Models.dll
+C:\Users\Sonal\OneDrive\Desktop\cqrs\CQRSSAmple\RossBoiler.Application.Models\obj\Release\net8.0\RossBoiler.Application.Models.pdb
+C:\Users\Sonal\OneDrive\Desktop\cqrs\CQRSSAmple\RossBoiler.Application.Models\obj\Release\net8.0\ref\RossBoiler.Application.Models.dll

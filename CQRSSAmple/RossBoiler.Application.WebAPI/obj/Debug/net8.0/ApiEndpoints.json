@@ -1,0 +1,1939 @@
+[
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "RossBoiler.Application.WebAPI.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.AddressesController",
+    "Method": "CreateAddress",
+    "RelativePath": "api/v{version}/Addresses",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.CreateAddressCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.AddressesController",
+    "Method": "GetAllAddresses",
+    "RelativePath": "api/v{version}/Addresses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.AddressesController",
+    "Method": "DeleteAddress",
+    "RelativePath": "api/v{version}/Addresses/DeleteAddress",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.AddressesController",
+    "Method": "GetAddressById",
+    "RelativePath": "api/v{version}/Addresses/GetAddressById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.AddressesController",
+    "Method": "UpdateAddress",
+    "RelativePath": "api/v{version}/Addresses/UpdateAddress",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.UpdateAddressCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.BoilerController",
+    "Method": "CreateBoiler",
+    "RelativePath": "api/v{version}/Boiler",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.CreateBoilerCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.BoilerController",
+    "Method": "GetAllBoilers",
+    "RelativePath": "api/v{version}/Boiler",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.BoilerController",
+    "Method": "DeleteBoiler",
+    "RelativePath": "api/v{version}/Boiler/DeleteBoiler",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.BoilerController",
+    "Method": "GetBoilerById",
+    "RelativePath": "api/v{version}/Boiler/GetBoilerById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.BoilerController",
+    "Method": "UpdateBoiler",
+    "RelativePath": "api/v{version}/Boiler/UpdateBoiler",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.UpdateBoilerCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.BoilerSeriesController",
+    "Method": "CreateBoilerSeries",
+    "RelativePath": "api/v{version}/BoilerSeries",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.CreateBoilerSeriesCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.BoilerSeriesController",
+    "Method": "GetAllBoilerSeries",
+    "RelativePath": "api/v{version}/BoilerSeries",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.BoilerSeriesController",
+    "Method": "DeleteBoilerSeries",
+    "RelativePath": "api/v{version}/BoilerSeries/DeleteBoilerSeries",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.BoilerSeriesController",
+    "Method": "GetBoilerSeriesById",
+    "RelativePath": "api/v{version}/BoilerSeries/GetBoilerSeriesById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.BoilerSeriesController",
+    "Method": "UpdateBoilerSeries",
+    "RelativePath": "api/v{version}/BoilerSeries/UpdateBoilerSeries",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.UpdateBoilerSeriesCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.BoilerSeriesPartsMappingController",
+    "Method": "CreateBoilerSeriesPartsMapping",
+    "RelativePath": "api/v{version}/BoilerSeriesPartsMapping",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.CreateBoilerSeriesPartsMappingCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.BoilerSeriesPartsMappingController",
+    "Method": "GetAllBoilerSeriesPartsMapping",
+    "RelativePath": "api/v{version}/BoilerSeriesPartsMapping",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.BoilerSeriesPartsMappingController",
+    "Method": "DeleteBoilerSeriesPartsMapping",
+    "RelativePath": "api/v{version}/BoilerSeriesPartsMapping/DeleteBoilerSeriesPartsMapping",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.BoilerSeriesPartsMappingController",
+    "Method": "GetBoilerSeriesPartsMappingById",
+    "RelativePath": "api/v{version}/BoilerSeriesPartsMapping/GetBoilerSeriesPartsMappingById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.BoilerSeriesPartsMappingController",
+    "Method": "UpdateBoilerSeriesPartsMapping",
+    "RelativePath": "api/v{version}/BoilerSeriesPartsMapping/UpdateBoilerSeriesPartsMapping",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.UpdateBoilerSeriesPartsMappingCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.CategoryController",
+    "Method": "CreateCategory",
+    "RelativePath": "api/v{version}/Category",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.CreateCategoryCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.CategoryController",
+    "Method": "GetAllCategory",
+    "RelativePath": "api/v{version}/Category",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.CategoryController",
+    "Method": "DeleteCategory",
+    "RelativePath": "api/v{version}/Category/DeleteCategory",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.CategoryController",
+    "Method": "GetCategoryById",
+    "RelativePath": "api/v{version}/Category/GetCategoryById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.CategoryController",
+    "Method": "UpdateCategory",
+    "RelativePath": "api/v{version}/Category/UpdateCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.UpdateCategoryByIdCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.ContactCentresController",
+    "Method": "CreateContactCentre",
+    "RelativePath": "api/v{version}/ContactCentres",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.CreateContactCentreCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.ContactCentresController",
+    "Method": "GetAllContactCentres",
+    "RelativePath": "api/v{version}/ContactCentres",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.ContactCentresController",
+    "Method": "DeleteContactCentre",
+    "RelativePath": "api/v{version}/ContactCentres/DeleteContactCentre",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.ContactCentresController",
+    "Method": "GetContactCentreById",
+    "RelativePath": "api/v{version}/ContactCentres/GetContactCenterById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.ContactCentresController",
+    "Method": "UpdateContactCentre",
+    "RelativePath": "api/v{version}/ContactCentres/UpdateContactCentre",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.UpdateContactCentreCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.CourierController",
+    "Method": "CreateCourier",
+    "RelativePath": "api/v{version}/Courier",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.CreateCourierCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.CourierController",
+    "Method": "GetAllCouriers",
+    "RelativePath": "api/v{version}/Courier",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.CourierController",
+    "Method": "DeleteCourier",
+    "RelativePath": "api/v{version}/Courier/DeleteCourier",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.CourierController",
+    "Method": "GetCourierById",
+    "RelativePath": "api/v{version}/Courier/GetCourierById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.CourierController",
+    "Method": "UpdateCourier",
+    "RelativePath": "api/v{version}/Courier/UpdateCourier",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.UpdateCourierCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.CustomerController",
+    "Method": "CreateCustomer",
+    "RelativePath": "api/v{version}/Customer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.CreateCustomerCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.CustomerController",
+    "Method": "GetAllCustomers",
+    "RelativePath": "api/v{version}/Customer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.CustomerController",
+    "Method": "DeleteCustomer",
+    "RelativePath": "api/v{version}/Customer/DeleteCustomer",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.CustomerController",
+    "Method": "GetCustomerById",
+    "RelativePath": "api/v{version}/Customer/GetCustomerById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.CustomerController",
+    "Method": "UpdateCustomer",
+    "RelativePath": "api/v{version}/Customer/UpdateCustomerCommand",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.UpdateCustomerCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.CustomerBoilersController",
+    "Method": "CreateCustomerBoiler",
+    "RelativePath": "api/v{version}/CustomerBoilers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.CreateCustomerBoilerCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.CustomerBoilersController",
+    "Method": "GetAllCustomerBoilers",
+    "RelativePath": "api/v{version}/CustomerBoilers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.CustomerBoilersController",
+    "Method": "DeleteCustomerBoiler",
+    "RelativePath": "api/v{version}/CustomerBoilers/DeleteCustomerBoiler",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.CustomerBoilersController",
+    "Method": "GetCustomerBoilerById",
+    "RelativePath": "api/v{version}/CustomerBoilers/GetCustomerBoilerById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.CustomerBoilersController",
+    "Method": "UpdateCustomerBoiler",
+    "RelativePath": "api/v{version}/CustomerBoilers/UpdateCustomerBoiler",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.UpdateCustomerBoilerCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.CustomerPricingController",
+    "Method": "CreateCustomerPricing",
+    "RelativePath": "api/v{version}/CustomerPricing",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.CreateCustomerPricingCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.CustomerPricingController",
+    "Method": "GetAllCustomerPricing",
+    "RelativePath": "api/v{version}/CustomerPricing",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.CustomerPricingController",
+    "Method": "DeleteCustomerPricing",
+    "RelativePath": "api/v{version}/CustomerPricing/DeleteCustomerPricing",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.CustomerPricingController",
+    "Method": "GetCustomerPricingById",
+    "RelativePath": "api/v{version}/CustomerPricing/GetCustomerPricingById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.CustomerPricingController",
+    "Method": "UpdateCustomerPricing",
+    "RelativePath": "api/v{version}/CustomerPricing/UpdateCustomerPricing",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.UpdateCustomerPricingByIdCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.GSTController",
+    "Method": "CreateGST",
+    "RelativePath": "api/v{version}/GST",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.CreateGSTCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.GSTController",
+    "Method": "GetAllGST",
+    "RelativePath": "api/v{version}/GST",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.GSTController",
+    "Method": "DeleteGST",
+    "RelativePath": "api/v{version}/GST/DeleteGST",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.GSTController",
+    "Method": "GetGSTById",
+    "RelativePath": "api/v{version}/GST/GetGSTById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.GSTController",
+    "Method": "UpdateGST",
+    "RelativePath": "api/v{version}/GST/UpdateGST",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.UpdateGSTByIdCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.HSNController",
+    "Method": "CreateHSN",
+    "RelativePath": "api/v{version}/HSN",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.CreateHSNCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.HSNController",
+    "Method": "GetAllHSN",
+    "RelativePath": "api/v{version}/HSN",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.HSNController",
+    "Method": "DeleteHSN",
+    "RelativePath": "api/v{version}/HSN/DeleteHSN",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.HSNController",
+    "Method": "GetHSNByFilter",
+    "RelativePath": "api/v{version}/HSN/GetHSNByFilter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.HSNController",
+    "Method": "UpdateHSN",
+    "RelativePath": "api/v{version}/HSN/UpdateHSN",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.UpdateHSNCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.ItemsController",
+    "Method": "CreateProduct",
+    "RelativePath": "api/v{version}/Items",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.CreateItemCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.ItemsController",
+    "Method": "GetAllProduct",
+    "RelativePath": "api/v{version}/Items",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.ItemsController",
+    "Method": "DeleteItems",
+    "RelativePath": "api/v{version}/Items/DeleteItems",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.ItemsController",
+    "Method": "GetItemById",
+    "RelativePath": "api/v{version}/Items/GetItemById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.ItemsController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/v{version}/Items/UpdateItems",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.UpdateItemByIdCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.PackingController",
+    "Method": "CreatePacking",
+    "RelativePath": "api/v{version}/Packing",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.CreatePackingCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.PackingController",
+    "Method": "GetAllPacking",
+    "RelativePath": "api/v{version}/Packing",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.PackingController",
+    "Method": "DeletePacking",
+    "RelativePath": "api/v{version}/Packing/DeletePacking",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.PackingController",
+    "Method": "GetPackingByFilter",
+    "RelativePath": "api/v{version}/Packing/GetPackingByFilter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.PackingController",
+    "Method": "UpdatePacking",
+    "RelativePath": "api/v{version}/Packing/UpdatePacking",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.UpdatePackingCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.PartsController",
+    "Method": "CreatePart",
+    "RelativePath": "api/v{version}/Parts",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.CreatePartsCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.PartsController",
+    "Method": "GetAllParts",
+    "RelativePath": "api/v{version}/Parts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.PartsController",
+    "Method": "DeletePart",
+    "RelativePath": "api/v{version}/Parts/DeletePart",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.PartsController",
+    "Method": "GetPartById",
+    "RelativePath": "api/v{version}/Parts/GetPartById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.PartsController",
+    "Method": "UpdatePart",
+    "RelativePath": "api/v{version}/Parts/UpdatePart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.UpdatePartsCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.SubCategoryController",
+    "Method": "CreateSubCategory",
+    "RelativePath": "api/v{version}/SubCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.CreateSubCategoryCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.SubCategoryController",
+    "Method": "GetAllSubCategory",
+    "RelativePath": "api/v{version}/SubCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.SubCategoryController",
+    "Method": "DeleteSubCategory",
+    "RelativePath": "api/v{version}/SubCategory/DeleteSubCategory",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.SubCategoryController",
+    "Method": "GetSubCategoryById",
+    "RelativePath": "api/v{version}/SubCategory/GetSubCategoryById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.SubCategoryController",
+    "Method": "UpdateSubCategory",
+    "RelativePath": "api/v{version}/SubCategory/UpdateSubCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.UpdateSubCategoryByIdCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.TechnicianController",
+    "Method": "CreateTechnician",
+    "RelativePath": "api/v{version}/Technician",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.CreateTechnicianCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.TechnicianController",
+    "Method": "GetAllTechnicians",
+    "RelativePath": "api/v{version}/Technician",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.TechnicianController",
+    "Method": "DeleteTechnician",
+    "RelativePath": "api/v{version}/Technician/DeleteTechnician",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.TechnicianController",
+    "Method": "GetTechnicianById",
+    "RelativePath": "api/v{version}/Technician/GetTechnicianById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.TechnicianController",
+    "Method": "UpdateTechnician",
+    "RelativePath": "api/v{version}/Technician/UpdateTechnician",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.UpdateTechnicianCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.UnitController",
+    "Method": "CreateUnit",
+    "RelativePath": "api/v{version}/Unit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.CreateUnitCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.UnitController",
+    "Method": "GetAllUnit",
+    "RelativePath": "api/v{version}/Unit",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.UnitController",
+    "Method": "DeleteUnit",
+    "RelativePath": "api/v{version}/Unit/DeleteUnit",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.UnitController",
+    "Method": "GetUnitByFilter",
+    "RelativePath": "api/v{version}/Unit/GetUnitByFilter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.UnitController",
+    "Method": "UpdateUnit",
+    "RelativePath": "api/v{version}/Unit/UpdateUnit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.UpdateUnitCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.UserManagementController",
+    "Method": "CreateUserManagement",
+    "RelativePath": "api/v{version}/UserManagement",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.CreateUserManagementCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.UserManagementController",
+    "Method": "GetAllUserManagements",
+    "RelativePath": "api/v{version}/UserManagement",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.UserManagementController",
+    "Method": "DeleteUserManagement",
+    "RelativePath": "api/v{version}/UserManagement/DeleteUserManagement",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.UserManagementController",
+    "Method": "GetUserManagementById",
+    "RelativePath": "api/v{version}/UserManagement/GetUserManagementById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.UserManagementController",
+    "Method": "UpdateUserManagement",
+    "RelativePath": "api/v{version}/UserManagement/UpdateUserManagement",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RossBoiler.Application.Commands.UpdateUserManagementCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RossBoiler.Application.WebAPI.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RossBoiler.Application.WebAPI.WeatherForecast, RossBoiler.Application.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

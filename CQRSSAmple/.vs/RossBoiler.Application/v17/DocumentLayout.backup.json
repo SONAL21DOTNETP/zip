@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sonal\\source\\repos\\CQRSSAmple\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{75BACC4E-2C0F-4A5C-A80D-21F8C3DEB61C}|RossBoiler.Common\\RossBoiler.Common.csproj|c:\\users\\sonal\\source\\repos\\cqrssample\\rossboiler.common\\regexconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75BACC4E-2C0F-4A5C-A80D-21F8C3DEB61C}|RossBoiler.Common\\RossBoiler.Common.csproj|solutionrelative:rossboiler.common\\regexconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF989D4-90E6-4E07-8181-DE1FAAF67F4C}|RossBoiler.Application.Commands\\RossBoiler.Application.Commands.csproj|c:\\users\\sonal\\source\\repos\\cqrssample\\rossboiler.application.commands\\address\\createaddress\\createaddresscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BF989D4-90E6-4E07-8181-DE1FAAF67F4C}|RossBoiler.Application.Commands\\RossBoiler.Application.Commands.csproj|solutionrelative:rossboiler.application.commands\\address\\createaddress\\createaddresscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D798E101-DEB5-4E88-812F-6692D2A103D9}|RossBoiler.Application.WebAPI\\RossBoiler.Application.WebAPI.csproj|c:\\users\\sonal\\source\\repos\\cqrssample\\rossboiler.application.webapi\\controllers\\addressescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D798E101-DEB5-4E88-812F-6692D2A103D9}|RossBoiler.Application.WebAPI\\RossBoiler.Application.WebAPI.csproj|solutionrelative:rossboiler.application.webapi\\controllers\\addressescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D798E101-DEB5-4E88-812F-6692D2A103D9}|RossBoiler.Application.WebAPI\\RossBoiler.Application.WebAPI.csproj|c:\\users\\sonal\\source\\repos\\cqrssample\\rossboiler.application.webapi\\controllers\\boilerseriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D798E101-DEB5-4E88-812F-6692D2A103D9}|RossBoiler.Application.WebAPI\\RossBoiler.Application.WebAPI.csproj|solutionrelative:rossboiler.application.webapi\\controllers\\boilerseriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D798E101-DEB5-4E88-812F-6692D2A103D9}|RossBoiler.Application.WebAPI\\RossBoiler.Application.WebAPI.csproj|c:\\users\\sonal\\source\\repos\\cqrssample\\rossboiler.application.webapi\\controllers\\customerboilercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D798E101-DEB5-4E88-812F-6692D2A103D9}|RossBoiler.Application.WebAPI\\RossBoiler.Application.WebAPI.csproj|solutionrelative:rossboiler.application.webapi\\controllers\\customerboilercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D798E101-DEB5-4E88-812F-6692D2A103D9}|RossBoiler.Application.WebAPI\\RossBoiler.Application.WebAPI.csproj|c:\\users\\sonal\\source\\repos\\cqrssample\\rossboiler.application.webapi\\controllers\\contactcentrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D798E101-DEB5-4E88-812F-6692D2A103D9}|RossBoiler.Application.WebAPI\\RossBoiler.Application.WebAPI.csproj|solutionrelative:rossboiler.application.webapi\\controllers\\contactcentrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB93FA6-A4BB-4287-8F74-867CFF478F7E}|RossBoiler.Application.Queries\\RossBoiler.Application.Queries.csproj|c:\\users\\sonal\\source\\repos\\cqrssample\\rossboiler.application.queries\\customerboiler\\getcustomerboilerbycustomerid\\getcustomerboilerbycustomeridquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB93FA6-A4BB-4287-8F74-867CFF478F7E}|RossBoiler.Application.Queries\\RossBoiler.Application.Queries.csproj|solutionrelative:rossboiler.application.queries\\customerboiler\\getcustomerboilerbycustomerid\\getcustomerboilerbycustomeridquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB93FA6-A4BB-4287-8F74-867CFF478F7E}|RossBoiler.Application.Queries\\RossBoiler.Application.Queries.csproj|c:\\users\\sonal\\source\\repos\\cqrssample\\rossboiler.application.queries\\customerboiler\\getcustomerboilerbycustomerid\\getcustomerboilerbycustomeridqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB93FA6-A4BB-4287-8F74-867CFF478F7E}|RossBoiler.Application.Queries\\RossBoiler.Application.Queries.csproj|solutionrelative:rossboiler.application.queries\\customerboiler\\getcustomerboilerbycustomerid\\getcustomerboilerbycustomeridqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegexConstants.cs",
+              "DocumentMoniker": "C:\\Users\\Sonal\\source\\repos\\CQRSSAmple\\RossBoiler.Common\\RegexConstants.cs",
+              "RelativeDocumentMoniker": "RossBoiler.Common\\RegexConstants.cs",
+              "ToolTip": "C:\\Users\\Sonal\\source\\repos\\CQRSSAmple\\RossBoiler.Common\\RegexConstants.cs",
+              "RelativeToolTip": "RossBoiler.Common\\RegexConstants.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAqwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T17:53:53.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateAddressCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Sonal\\source\\repos\\CQRSSAmple\\RossBoiler.Application.Commands\\Address\\CreateAddress\\CreateAddressCommandHandler.cs",
+              "RelativeDocumentMoniker": "RossBoiler.Application.Commands\\Address\\CreateAddress\\CreateAddressCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Sonal\\source\\repos\\CQRSSAmple\\RossBoiler.Application.Commands\\Address\\CreateAddress\\CreateAddressCommandHandler.cs",
+              "RelativeToolTip": "RossBoiler.Application.Commands\\Address\\CreateAddress\\CreateAddressCommandHandler.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAewB8AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T17:53:31.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddressesController.cs",
+              "DocumentMoniker": "C:\\Users\\Sonal\\source\\repos\\CQRSSAmple\\RossBoiler.Application.WebAPI\\Controllers\\AddressesController.cs",
+              "RelativeDocumentMoniker": "RossBoiler.Application.WebAPI\\Controllers\\AddressesController.cs",
+              "ToolTip": "C:\\Users\\Sonal\\source\\repos\\CQRSSAmple\\RossBoiler.Application.WebAPI\\Controllers\\AddressesController.cs",
+              "RelativeToolTip": "RossBoiler.Application.WebAPI\\Controllers\\AddressesController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAmwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T17:53:03.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BoilerSeriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Sonal\\source\\repos\\CQRSSAmple\\RossBoiler.Application.WebAPI\\Controllers\\BoilerSeriesController.cs",
+              "RelativeDocumentMoniker": "RossBoiler.Application.WebAPI\\Controllers\\BoilerSeriesController.cs",
+              "ToolTip": "C:\\Users\\Sonal\\source\\repos\\CQRSSAmple\\RossBoiler.Application.WebAPI\\Controllers\\BoilerSeriesController.cs",
+              "RelativeToolTip": "RossBoiler.Application.WebAPI\\Controllers\\BoilerSeriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T17:52:59.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContactCentresController.cs",
+              "DocumentMoniker": "C:\\Users\\Sonal\\source\\repos\\CQRSSAmple\\RossBoiler.Application.WebAPI\\Controllers\\ContactCentresController.cs",
+              "RelativeDocumentMoniker": "RossBoiler.Application.WebAPI\\Controllers\\ContactCentresController.cs",
+              "ToolTip": "C:\\Users\\Sonal\\source\\repos\\CQRSSAmple\\RossBoiler.Application.WebAPI\\Controllers\\ContactCentresController.cs",
+              "RelativeToolTip": "RossBoiler.Application.WebAPI\\Controllers\\ContactCentresController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T17:52:45.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerBoilerController.cs",
+              "DocumentMoniker": "C:\\Users\\Sonal\\source\\repos\\CQRSSAmple\\RossBoiler.Application.WebAPI\\Controllers\\CustomerBoilerController.cs",
+              "RelativeDocumentMoniker": "RossBoiler.Application.WebAPI\\Controllers\\CustomerBoilerController.cs",
+              "ToolTip": "C:\\Users\\Sonal\\source\\repos\\CQRSSAmple\\RossBoiler.Application.WebAPI\\Controllers\\CustomerBoilerController.cs",
+              "RelativeToolTip": "RossBoiler.Application.WebAPI\\Controllers\\CustomerBoilerController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T17:52:35.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetCustomerBoilerByCustomerIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Sonal\\source\\repos\\CQRSSAmple\\RossBoiler.Application.Queries\\CustomerBoiler\\GetCustomerBoilerByCustomerId\\GetCustomerBoilerByCustomerIdQuery.cs",
+              "RelativeDocumentMoniker": "RossBoiler.Application.Queries\\CustomerBoiler\\GetCustomerBoilerByCustomerId\\GetCustomerBoilerByCustomerIdQuery.cs",
+              "ToolTip": "C:\\Users\\Sonal\\source\\repos\\CQRSSAmple\\RossBoiler.Application.Queries\\CustomerBoiler\\GetCustomerBoilerByCustomerId\\GetCustomerBoilerByCustomerIdQuery.cs",
+              "RelativeToolTip": "RossBoiler.Application.Queries\\CustomerBoiler\\GetCustomerBoilerByCustomerId\\GetCustomerBoilerByCustomerIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T17:52:25.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetCustomerBoilerByCustomerIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Sonal\\source\\repos\\CQRSSAmple\\RossBoiler.Application.Queries\\CustomerBoiler\\GetCustomerBoilerByCustomerId\\GetCustomerBoilerByCustomerIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "RossBoiler.Application.Queries\\CustomerBoiler\\GetCustomerBoilerByCustomerId\\GetCustomerBoilerByCustomerIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Sonal\\source\\repos\\CQRSSAmple\\RossBoiler.Application.Queries\\CustomerBoiler\\GetCustomerBoilerByCustomerId\\GetCustomerBoilerByCustomerIdQueryHandler.cs",
+              "RelativeToolTip": "RossBoiler.Application.Queries\\CustomerBoiler\\GetCustomerBoilerByCustomerId\\GetCustomerBoilerByCustomerIdQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T17:52:22.291Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

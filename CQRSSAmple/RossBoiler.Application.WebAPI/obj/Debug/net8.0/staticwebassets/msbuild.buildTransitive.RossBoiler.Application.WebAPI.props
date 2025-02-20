@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\RossBoiler.Application.WebAPI.props" />
+</Project>

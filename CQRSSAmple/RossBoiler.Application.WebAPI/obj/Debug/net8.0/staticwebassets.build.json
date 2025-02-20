@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "QyvVNbheIu/+fv/xbGzaKWBndgqY7pwmDI2wMQV+0gA=",
+  "Source": "RossBoiler.Application.WebAPI",
+  "BasePath": "_content/RossBoiler.Application.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
